@@ -30,7 +30,7 @@ elif deystviye == "7":
 elif deystviye == "8" :
     print(math.sin(number1),math.sin(number2))
 elif deystviye == "9":
-    print(math.cos(number1),math.sin(number2))
+    print(math.cos(number1),math.cos(number2))
 elif deystviye == "10":
     print(math.tan(number1),math.tan(number2))
 else:
