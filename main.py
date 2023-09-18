@@ -28,10 +28,16 @@ elif deystviye == "6":
 elif deystviye == "7":
     print(math.factorial(number1),math.factorial(number2))
 elif deystviye == "8" :
-    print(math.sin(number1),math.sin(number2))
+    number1 = int((input("Напишите количество радианов")))
+    radianov=math.radians(number1)
+    print(math.sin(radianov))
 elif deystviye == "9":
-    print(math.cos(number1),math.cos(number2))
+    number1 = int((input("Напишите количество радианов")))
+    radianov=math.radians(number1)
+    print(math.cos(radianov))
 elif deystviye == "10":
-    print(math.tan(number1),math.tan(number2))
+    number1 = int((input("Напишите количество радианов")))
+    radianov=math.radians(number1)
+    print(math.tan(radianov))
 else:
     print("ошибка")
