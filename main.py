@@ -20,7 +20,10 @@ elif deystviye == "2":
 elif deystviye == "3":
     print(number1*number2)
 elif deystviye == "4":
-    print(number1/number2)
+    if number2 ==0:
+        print("деление на 0 нельзя")
+    else:
+         print(number1/number2)
 elif deystviye == "5":
     print(number1**number2)
 elif deystviye == "6":
